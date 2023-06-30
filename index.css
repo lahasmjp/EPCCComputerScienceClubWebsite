@@ -11,6 +11,7 @@ header {
 body {
     display:flex;
     flex-flow:column wrap;
+    margin:0;
 }
 #clublogo {
     width:15em;
@@ -25,7 +26,7 @@ body {
 .navlink {
     padding-left:1vw;
     padding-right:1vw;
-    font-size:1em;
+    font-size:1.2em;
 }
 a.navlink {
     text-decoration: none;
@@ -74,6 +75,12 @@ article {
     flex-flow:column wrap;
     justify-content:center;
     line-height:1.5;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+#smNav {
+    margin-left:10vw;
+    margin-right:10vw;
 }
 .smIcon {
     width:64px;
