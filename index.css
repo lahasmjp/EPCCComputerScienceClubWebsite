@@ -58,6 +58,7 @@ a.navlink:active {
     text-align:center;
     padding-top:.5em;
     margin-top:.5em;
+    line-height:1.2;
 }
 article {
     padding-left:.2em;
@@ -72,15 +73,20 @@ article {
     display:flex;
     flex-flow:column wrap;
     justify-content:center;
+    line-height:1.5;
 }
 .smIcon {
     width:64px;
-    margin:1.5vw;
+    margin-right:1.5em;
+    margin-bottom:1em;
 }
 footer {
     display:flex;
     flex-flow:column;
     justify-content:space-evenly;
+    background-color:darkcyan;
+    padding:1em;
+    line-height:1.5;
 }
 @media only screen and (max-width: 600px) {
     .articlePhoto {
