@@ -1,0 +1,43 @@
+main {
+    margin-left:clamp(2vw,9vw,10vw);
+    margin-right:clamp(2vw,9vw,10vw);
+}
+section {
+    display:flex;
+    flex-flow:row nowrap;
+    margin:1.5vw;
+}
+.portrait {
+    padding-right:1vw;
+    width:300px;
+    aspect-ratio: 73 / 80;
+}
+.content {
+    padding-left:1vw;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+    align-items:baseline;
+    font-size:1em;
+}
+.socialwrapper {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:flex-start;
+    align-items:baseline;
+}
+.socialicon {
+    margin-right:1vw;
+    margin-top:1vw;
+    width:40px;
+}
+@media only screen and (max-width: 600px) {
+    section {
+        flex-flow:column;
+    }
+    .socialicon {
+        margin-right:5vw;
+        margin-top:2vw;
+        width:45px;
+    }
+}

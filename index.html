@@ -7,34 +7,28 @@
         <meta name="keywords" content="HTML, CSS">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" href="index.css">
+        <script src="./components.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-        <header>
-            <img id="clublogo" src="./clublogo.png">
-            <nav id="headernav">
-                <li><a class="navlink" href="./index.html">Home</a></li>
-                <li><a class="navlink" href="./epoints.html">E-Points</a></li>
-                <li><a class="navlink" href="./contacts.html">Contact Us</a></li>
-            </nav>
-        </header>
-        <img id="splash" src="./splash.png">
+        <main-header></main-header>
+        <img id="splash" src="./images/splash.png">
         <section id="main">
             <section id="newsSection">
                 <article>
-                    <img class="articlePhoto" src="./articleplaceholder.png">
+                    <img class="articlePhoto" src="./images/articleplaceholder.png">
                     <h3>This is the title</h3>
                     <p>Ah yes, hello world, it is I, a paragraph!
                     </p>
                 </article>
                 <article>
-                    <img class="articlePhoto" src="./articleplaceholder.png">
+                    <img class="articlePhoto" src="./images/articleplaceholder.png">
                     <h3>This is the title</h3>
                     <p>Ah yes, hello world, it is I, a paragraph!</p>
                 </article>
                 <article>
-                    <img class="articlePhoto" src="./articleplaceholder.png">
+                    <img class="articlePhoto" src="./images/articleplaceholder.png">
                     <h3>This is the title</h3>
                     <p>Ah yes, hello world, it is I, a paragraph!</p>
                 </article>
@@ -45,20 +39,9 @@
                 <p>Our mission is to provide a space for students to develop their skills and network with like minded
                     individuals while also giving back to the greater El Paso community.</p>
             </section>
-            <nav id="smNav">
-                <h4>Visit our Social Medias!</h4>
-                <a href="https://www.instagram.com/epcc_computer_science_club/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="./insta.png" class="smIcon"></a>
-                <a href="https://discord.gg/jjzkRn6x3q" target="_blank"><img src="./discord.png" class="smIcon"></a>
-            </nav>
+            <socialmedia-plugs></socialmedia-plugs>
         </section>
-        <footer>
-            <p>El Paso County Community College District does not discriminate on the basis of race, color, national
-                origin, religion, gender, age, disability, veteran status, sexual orientation, or gender identity.</p>
-                <section>
-                    <img class="medIcon" src="./epcc.png">
-                    <img class="medIcon" src="./acm.png">
-                </section>
-        </footer>
+        <main-footer></main-footer>
     </body>
 
     </html>

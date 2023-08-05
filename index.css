@@ -24,8 +24,8 @@ body {
     padding-bottom:1vw;
 }
 .navlink {
-    padding-left:1vw;
-    padding-right:1vw;
+    padding-left:2vw;
+    padding-right:2vw;
     font-size:1.2em;
 }
 a.navlink {
@@ -50,7 +50,7 @@ a.navlink:active {
     justify-content:center;
     align-items:center;
     width:100%;
-    height:30vw;
+    height:100%
 }
 #newsSection {
     display: flex;
@@ -106,7 +106,7 @@ footer {
         width:75vw;
     }
     #splash {
-        height:50vw;
+        height:45vw;
     }
     header {
         background-color:darkcyan;
