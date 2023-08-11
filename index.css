@@ -68,7 +68,7 @@ article {
     margin-right:.2em;
 }
 .articlePhoto {
-    width:25vw;
+    width:20vw;
 }
 #missionStatement {
     display:flex;
@@ -88,7 +88,7 @@ article {
     margin-bottom:1em;
 }
 .medIcon {
-    width:100px;
+    width:90px;
     margin-right:1.5em;
     margin-bottom:1em;
 }
@@ -97,7 +97,10 @@ footer {
     flex-flow:column;
     justify-content:space-evenly;
     background-color:darkcyan;
-    padding:1em;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:10vw;
+    padding-right:10vw;
     line-height:1.5;
     color:white;
 }
