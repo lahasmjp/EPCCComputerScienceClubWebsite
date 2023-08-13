@@ -3,7 +3,7 @@ This is the repository for EPCC's Computer Science Club website. It is still bei
 up here for feedback and in case anyone wanted to add anything to it.
 
 ## Here are some ground rules for anyone that wants to commit to this project!
-- **DO NOT** try commiting to the *"main"* branch. Either use the *"prototypes-and-concepts"* branch or create your own pretty please!
+- **DO NOT** try commiting to the *"main"* branch. Create your own branch, then when you're ready to propose we use your code, submit a pull request to be considered.
 - Make Summaries short but impactful. State their purpose as uniquely as possible so we can tell commits apart. (Ex. Instead of "Visual Improvements", write something like "Heading Padding Alterations" or "Big Color Changes".)
 - While changelogs were required before, as of 8/11/23 they are not... Though it would be neat if you detailed changes further whether that is in changelog format or not.
 - This is more of a future-proofing rule in case this site remains on GitHub Pages, but content updates need to be formatted as "Content Update MM/DD/YY".
