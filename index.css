@@ -62,7 +62,7 @@ a.navlink:active {
 article {
     display: flex;
     flex-flow:column wrap;
-    flex-basis:15vw;
+    flex-basis:20vw;
     outline-style:solid;
     outline-width:1px;
     outline-color: grey;
@@ -120,8 +120,5 @@ footer {
         flex-flow:column wrap;
         justify-content:space-around;
         align-items:center;
-    }
-    .headlines > h3 {
-        font-size:3.5vw;
     }
 }
