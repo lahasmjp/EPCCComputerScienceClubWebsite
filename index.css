@@ -18,7 +18,7 @@ body {
 }
 #headernav {
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     list-style-type:none;
     justify-content:space-evenly;
     padding-bottom:1vw;
@@ -55,7 +55,7 @@ a.navlink:active {
 .headlines {
     display:grid;
     grid-template-columns: 30vw 30vw 30vw;
-    grid-template-rows: 45vw;
+    grid-template-rows: 45w;
     justify-content:space-evenly;
 }
 article {
@@ -128,4 +128,8 @@ footer {
         align-content:center;
         align-items:baseline;
     }
-}s
+    #headernav {
+        flex-flow:column wrap;
+        align-items:center;
+    }
+}
