@@ -53,15 +53,15 @@ a.navlink:active {
     height:100%
 }
 .headlines {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-items: baseline;
-    align-content:center;
+    display:grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 45vw;
+    justify-content:space-evenly;
 }
 article {
     display: flex;
     flex-flow:column wrap;
+    align-content:center;
     flex-basis:20vw;
     outline-style:solid;
     outline-width:1px;
@@ -107,7 +107,7 @@ footer {
     line-height:1.5;
     color:white;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
     .articlePhoto {
         width:75vw;
     }
@@ -121,4 +121,11 @@ footer {
         justify-content:space-around;
         align-items:center;
     }
-}
+    .headlines {
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:center;
+        align-content:center;
+        align-items:baseline;
+    }
+}s
