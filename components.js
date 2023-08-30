@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         <nav id="headernav">
             <li><a class="navlink" href="./index.html">Home</a></li>
             <!--<li><a class="navlink" href="./epoints.html">E-Points</a></li>-->
-            <li><a class="navlink" href="./ambassadors.html">Ambassadors / Contacts</a></li>
+            <li><a class="navlink" href="./officer.html">Officers / Contacts</a></li>
         </nav>
         </header>
         `;
