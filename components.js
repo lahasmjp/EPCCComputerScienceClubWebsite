@@ -10,7 +10,7 @@ class Header extends HTMLElement {
             <li><a class="navlink" href="/currentnewsletter.html">Newsletter</a></li>
         </nav>
         </header>
-        `;
+        `
     }
 }
 class Footer extends HTMLElement {
