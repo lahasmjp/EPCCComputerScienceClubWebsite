@@ -1,4 +1,4 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
     <html>
 
     <head>
@@ -7,14 +7,13 @@
         <meta name="keywords" content="HTML, CSS">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" href="index.css">
-        <script src="/components.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
         <main-header></main-header>
         <div style="background-color:rgb(255, 228, 73);text-align:center;padding:0.025vw;font-size:.8em; word-wrap: break-word;">
-            <p>NEXT MEETING: September 22nd at 2:00 PM @ EPCC Valle Verde!!!</p>
+            <p id="ticker">NEXT MEETING: </p>
         </div>
         <img id="splash" src="/images/splash.png">
         <section id="main">
@@ -46,6 +45,7 @@
             <socialmedia-plugs></socialmedia-plugs>
         </section>
         <main-footer></main-footer>
+        <script src="/components.js"></script>
     </body>
 
     </html>

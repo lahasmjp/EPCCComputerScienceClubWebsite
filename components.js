@@ -6,7 +6,8 @@ class Header extends HTMLElement {
         <nav id="headernav">
             <li><a class="navlink" href="/index.html">Home</a></li>
             <!--<li><a class="navlink" href="/epoints.html">E-Points</a></li>-->
-            <li><a class="navlink" href="/officer.html">Officers / Contacts</a></li>
+            <li><a class="navlink" href="/cabinet.html">Cabinet / Contacts</a></li>
+            <li><a class="navlink" href="/currentnewsletter.html">Newsletter</a></li>
         </nav>
         </header>
         `;
@@ -42,3 +43,32 @@ class socialMedia extends HTMLElement {
 customElements.define('main-header', Header);
 customElements.define('main-footer', Footer);
 customElements.define('socialmedia-plugs', socialMedia);
+
+//Ticker Date Checker
+const date = new Date(); // Creates Date Object
+let ticker = document.getElementById("ticker"); // Selects the yellow ticker
+let currentDay = date.getDay(); // Defines current day as int
+let currentMonth = date.getMonth() + 1; // Defines current month as int + 1 (uses zero-based-numbering)
+console.log(currentDay);
+console.log(currentMonth);
+
+// Checks for certain month, then checks for certain day, then appends the String to ticker's text
+if (currentMonth == 10) {
+    if (currentDay <= 6) {
+        ticker.append("General Meeting on October 6th, 2:00PM @ Valle Verde AST 307");
+    }
+    else if (currentDay <= 20) {
+        ticker.append("Professional Development Pt. I on October 20th, 2:00PM @ Valle Verde AST 307");
+    }
+}
+else if (currentMonth == 11) {
+    if (currentDay <= 4) {
+        ticker.append("General Development on November 4th, 2:00PM @ Valle Verde AST 307")
+    }
+    if (currentDay <= 17) {
+        ticker.append("Professional Development Pt. II on November 17th, 2:00PM @ Valle Verde AST 307");
+    }
+    else {
+        ticker.append("TBA");
+    }
+}
