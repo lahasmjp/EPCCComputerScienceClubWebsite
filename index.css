@@ -63,6 +63,7 @@ article {
     display: flex;
     flex-flow:column wrap;
     align-content:center;
+    align-items:center;
     flex-basis:20vw;
     outline-style:solid;
     outline-width:1px;

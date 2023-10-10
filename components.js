@@ -47,10 +47,11 @@ customElements.define('socialmedia-plugs', socialMedia);
 //Ticker Date Checker
 const date = new Date(); // Creates Date Object
 let ticker = document.getElementById("ticker"); // Selects the yellow ticker
-let currentDay = date.getDay(); // Defines current day as int
+let currentDay = date.getDate(); // Defines current day as int
 let currentMonth = date.getMonth() + 1; // Defines current month as int + 1 (uses zero-based-numbering)
-console.log(currentDay);
-console.log(currentMonth);
+console.log("Hiya, here's some debug info for you sneaky peakers")
+console.log("Today's Date: " + currentDay);
+console.log("Current Month: " + currentMonth);
 
 // Checks for certain month, then checks for certain day, then appends the String to ticker's text
 if (currentMonth == 10) {
