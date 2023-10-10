@@ -49,7 +49,7 @@ const date = new Date(); // Creates Date Object
 let ticker = document.getElementById("ticker"); // Selects the yellow ticker
 let currentDay = date.getDate(); // Defines current day as int
 let currentMonth = date.getMonth() + 1; // Defines current month as int + 1 (uses zero-based-numbering)
-console.log("Hiya, here's some debug info for you sneaky peakers")
+console.log("Hiya, here's some debug info for you sneaky peakers");
 console.log("Today's Date: " + currentDay);
 console.log("Current Month: " + currentMonth);
 
