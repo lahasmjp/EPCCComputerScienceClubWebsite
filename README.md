@@ -1,4 +1,4 @@
-# Welcome to the Beta Repository for EPCC's Computer Science Club Website!
+# Welcome to the Archive Repository for EPCC's Computer Science Club Website!
 This is the repository for EPCC's Computer Science Club website. It is still being developed, but I've decided to put it
 up here for feedback and in case anyone wanted to add anything to it.
 
