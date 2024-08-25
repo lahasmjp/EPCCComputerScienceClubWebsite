@@ -1,8 +1,7 @@
 # Welcome to the Archive Repository for EPCC's Computer Science Club Website!
-This is the repository for EPCC's Computer Science Club website. It is still being developed, but I've decided to put it
-up here for feedback and in case anyone wanted to add anything to it.
+This is the repository for EPCC's Computer Science Club website. It's been retired from being hosted on my Github Pages domain, but can still be pulled and pushed from!
 
-## Here are some ground rules for anyone that wants to commit to this project!
+## Here are some ground rules for anyone that wants to commit to this!
 - **DO NOT** try commiting to the *"main"* branch. Create your own branch, then when you're ready to propose we use your code, submit a pull request to be considered.
 - Make Summaries short but impactful. State their purpose as uniquely as possible so we can tell commits apart. (Ex. Instead of "Visual Improvements", write something like "Heading Padding Alterations" or "Big Color Changes".)
 - While changelogs were required before, as of 8/11/23 they are not... Though it would be neat if you detailed changes further whether that is in changelog format or not.
